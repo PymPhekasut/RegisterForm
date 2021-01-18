@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1 align="left">register form</h1>
+    <form align="left">
+        <div>
+            <label for="First"> Firstname</label>
+            <input type="text" name="fname" placeholder="what is your name?" required> <!--require complete the form-->
+        </div>
+        <div>
+            <label for="Last"> Lastname </label>
+            <input type="text" name="Lname"  placeholder="what is your lastname?" required>
+        </div>
+        <div>
+            <label for="mail"> Email </label>
+            <input type="email" name="email"  placeholder="what is your email?" required>
+        </div>
+        <div>
+            <label for="pass"> Password </label>
+            <input type="password" name="passw">
+        </div>
+        <div>
+            <label for=""> address </label>
+            <textarea name="" cols="20" row="10"></textarea>
+        </div>
+        <div>
+            <label for="age"> age </label>
+            <input type="number" name="age"  min="0" max="10" value="2" readonly><!--read only-->
+
+        </div>
+        <div>
+            <label for="date"> DOB </label>
+            <input type="date" name="dob">
+        </div>
+        <div>
+            <label for="phone"> Tel </label>
+            <input type="tel" name="tel">
+        </div>
+        <div>
+            <label for="favor"> Favorite color </label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="favor"> range number </label>
+            <input type="range" name="rangenumber" value="1">
+        </div>
+        <div>
+            <label for="Educated"> Education</label>
+            <select name="edu" id="">
+                <option value="high school"> high school</option>
+                <option value="BA"> Bachelor</option>
+                <option value="MA" selected> Master</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender"> Gender </label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">No
+        </div>
+        <div>
+            <label for="choose">Career </label>
+            <input type="checkbox" name="future"> Programmer
+            <input type="checkbox" name="future"> Software Arch
+            <input type="checkbox" name="future"> Data
+        </div>
+        <div>
+            <label for="attach">attachment</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="attach">website</label>
+            <input type="url">
+        </div>
+        <div>
+            <input type="Submit" value="Save">
+        </div>
+       
+            
+        
+    </form>
+</body>
+</html>
